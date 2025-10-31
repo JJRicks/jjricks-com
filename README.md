@@ -1,50 +1,41 @@
-# Welcome to your Expo app 👋
+# Project Title (Update)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+JJRicks.com
 
-## Get started
+## Instructions for Build and Use
 
-1. Install dependencies
+Steps to build and/or run the software:
 
-   ```bash
-   npm install
-   ```
+1. Get the Expo framework for React Native and its associated dependencies
+2. Install Node JS
+3. Run npx expo start and open the web version
 
-2. Start the app
+Instructions for using the software:
 
-   ```bash
-   npx expo start
-   ```
+1. Use the header to click between the home and color picker pages
+2. On the color picker page, enter a color in either RGB or hex and click the update button
+3. Observe changes to the color output box
 
-In the output, you'll find options to open the app in a
+## Development Environment 
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+To recreate the development environment, you need the following software and/or libraries with the specified versions:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* VScode, latest
+* Node JS
+* Expo framework for React Native
 
-## Get a fresh project
+## Useful Websites to Learn More
 
-When you're ready, run:
+I found these websites useful in developing this software:
 
-```bash
-npm run reset-project
-```
+* [Expo Documentation](https://docs.expo.dev/)
+* [ChatGPT (tutoring)](https://chatgpt.com)
+* [StackOverflow](https://stackoverflow.com)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Future Work
 
-## Learn more
+The following items I plan to fix, improve, and/or add to this project in the future:
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* [ ] Add more pages with interesting functionality
+* [ ] Improve the overall themeing to be easier on the eyes
+* [ ] Actually publish to a real online domain
