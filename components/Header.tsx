@@ -18,6 +18,7 @@ export default function Header() {
       <View style={styles.nav}>
         <Link href="/" style={styles.navLink}>Home</Link>
         <Link href="/color_generator" style={styles.navLink}>Color generator</Link>
+        <Link href={"/study_timer" as any} style={styles.navLink}>Study Timer</Link>
       </View>
     </View>
   );
@@ -40,8 +41,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: 12,
   },
-  logo: { width: 120, height: 40, resizeMode: 'cover'},
+  logo: { width: 120, height: 40, resizeMode: 'cover' },
   siteName: { fontSize: 18, fontWeight: '600', color: 'white' },
   nav: { flexDirection: 'row', gap: 16 },
-  navLink: { fontSize: 16, textDecorationLine: 'none', color:"white" },
+  navLink: { fontSize: 16, textDecorationLine: 'none', color: "white" },
 });
